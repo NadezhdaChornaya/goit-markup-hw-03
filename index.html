@@ -20,18 +20,20 @@
   <body class="body">
     <!--main navigation-->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container nav-flex">
+        <nav class="nav-flex">
           <a href="./index.html" arial-label="logo" lang="en" class="logo"
             >Web<span lang="en" class="logo-studio">Studio</span></a
           >
           <ul class="site-nav list">
-            <li><a href="" class="link active">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="" class="link active">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <address>
+        <address class="nav-flex">
           <ul class="contacts list">
             <li>
               <a href="mailto:info@devstudio.com" class="contacts-details"
@@ -49,7 +51,7 @@
     </header>
     <main>
       <!--hero-->
-      <section class="hero">
+      <section class="hero section">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <a href="" class="hero-button"
           ><span class="button-text">Заказать услугу</span></a
@@ -94,54 +96,58 @@
       </section>
       <!--our occupation-->
       <section class="selection">
-        <h2 class="selection-title">Чем мы занимаемся</h2>
-        <ul class="work-examples list">
-          <li>
-            <a href="">
-              <img src="./img/icon1.svg" alt="типы услуг" width="370" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/icon2.svg" alt="типы услуг" width="370" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/icon3.svg" alt="типы услуг" width="370" />
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="selection-title">Чем мы занимаемся</h2>
+          <ul class="work-examples list">
+            <li>
+              <a href="">
+                <img src="./img/icon1.svg" alt="типы услуг" width="370" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/icon2.svg" alt="типы услуг" width="370" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/icon3.svg" alt="типы услуг" width="370" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--our team-->
       <section class="selection">
-        <h2 class="selection-title">Наша команда</h2>
-        <ul class="team list">
-          <li>
-            <img src="./img/photo1.jpg" alt="фото дизайнера" width="270" />
-            <h3 class="name">Игорь Демьяненко</h3>
-            <p lang="en" class="position">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./img/photo2.jpg"
-              alt="фото фронтэнд разработчика"
-              width="270"
-            />
-            <h3 class="name">Ольга Репина</h3>
-            <p lang="en" class="position">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./img/photo3.jpg" alt="фото маркетолога" width="270" />
-            <h3 class="name">Николай Тарасов</h3>
-            <p lang="en" class="position">Marketing</p>
-          </li>
-          <li>
-            <img src="./img/photo4.jpg" alt="фото дизайнера" width="270" />
-            <h3 class="name">Михаил Ермаков</h3>
-            <p lang="en" class="position">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="selection-title">Наша команда</h2>
+          <ul class="team list">
+            <li>
+              <img src="./img/photo1.jpg" alt="фото дизайнера" width="270" />
+              <h3 class="name">Игорь Демьяненко</h3>
+              <p lang="en" class="position">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./img/photo2.jpg"
+                alt="фото фронтэнд разработчика"
+                width="270"
+              />
+              <h3 class="name">Ольга Репина</h3>
+              <p lang="en" class="position">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./img/photo3.jpg" alt="фото маркетолога" width="270" />
+              <h3 class="name">Николай Тарасов</h3>
+              <p lang="en" class="position">Marketing</p>
+            </li>
+            <li>
+              <img src="./img/photo4.jpg" alt="фото дизайнера" width="270" />
+              <h3 class="name">Михаил Ермаков</h3>
+              <p lang="en" class="position">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--contacts-->

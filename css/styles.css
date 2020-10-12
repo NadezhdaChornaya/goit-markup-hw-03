@@ -1,6 +1,11 @@
+.selection {
+  padding: 94px 215px;
+}
+
 /*hero block*/
 
 .hero {
+  padding: 94px 215px;
   background-color: var(--background-color);
   text-align: center;
 }
@@ -41,7 +46,7 @@
 
 .selection .selection-title {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   text-align: center;
   font-weight: 700;
@@ -70,6 +75,8 @@
 }
 
 .name {
+  margin-top: 10px;
+  margin-bottom: 30px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -79,6 +86,8 @@
 }
 
 .selection .position {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1, 19;
   text-align: center;

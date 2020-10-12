@@ -1,4 +1,16 @@
 /*filter button*/
+.filter {
+  display: flex;
+}
+
+/* .filter .item:not(:last-child) {
+  margin-right: 8px;
+} */
+
+/* применяем тем элементам, у которых есть "сосед" слева */
+.filter .item + .item {
+  margin-left: 8px;
+}
 
 .button {
   border-radius: 4px;
