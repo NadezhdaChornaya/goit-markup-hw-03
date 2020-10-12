@@ -1,0 +1,124 @@
+/* #212121 цвет основоного текста*/
+/* #757575 вторичный цвет*/
+/* #2196F3 синий текст*/
+/* #FFFFFF белый текст*/
+/* rgba(0, 0, 0, 0.15); синие кнопки*/
+/* rgba(255, 255, 255, 0.6); footer contacts*/
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-color: #ffffff;
+  --acsent-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --background-color: #2f303a;
+  --button-background: #f5f4fa;
+}
+
+/* Тип блочной модели элементов */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: var(--secondary-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* wight: 1170+30px
+padding-left: 15px
+padding-right: 15px; */
+
+/* heared container */
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
+.page-header {
+  letter-spacing: 0.02em;
+}
+/*logo*/
+.logo {
+  color: var(--acsent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo:hover {
+  color: var(--title-text-color);
+}
+.logo-studio {
+  color: var(--title-text-color);
+}
+
+.logo-footer {
+  color: var(--secondary-color);
+}
+
+/*header bloсk*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .contacts-details:hover,
+.site-nav .link.active {
+  color: var(--acsent-color);
+}
+
+.contacts .contacts-details {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  text-decoration: none;
+}
+
+/*footer*/
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.address {
+  color: var(--secondary-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.contacts {
+  color: var(--footer-contacts-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}

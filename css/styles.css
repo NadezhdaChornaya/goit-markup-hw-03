@@ -1,0 +1,92 @@
+/*hero block*/
+
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: var(--secondary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  outline: 2px solid tomato;
+}
+
+/*button*/
+.hero-button {
+  text-decoration: none;
+}
+
+.hero .button-text {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  color: var(--secondary-color);
+  background-color: var(--acsent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*section block*/
+
+.selection .selection-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--title-text-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.selection .position {
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*advantages*/
+
+.advantages-list .title {
+  color: var(--title-text-color);
+}
