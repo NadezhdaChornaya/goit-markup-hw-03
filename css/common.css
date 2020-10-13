@@ -168,15 +168,29 @@ html {
 /* ================= footer ====================== */
 
 
-.footer {
+.footer {  
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--background-color);
+
 }
+
+/* logo footer */
 
 .logo-footer-main {
   display: block;
   margin-top: 60px;
   margin-left: 215px;
 } 
+
+.logo-footer{
+  color: var(--secondary-color);
+}
+
+.logo-footer:hover{
+  color: var(--acsent-color)
+}
 
 .address-container{
   margin-left: 215px;
@@ -187,6 +201,8 @@ html {
 
 .address {
   display: block;
+
+  margin-top: 20px;
 
   color: var(--secondary-color);
   font-size: 14px;
@@ -199,6 +215,8 @@ html {
 .contacts {
   display: block;
 
+  margin-top: 9px;
+
   color: var(--footer-contacts-color);
   font-size: 14px;
   font-style: normal;
@@ -206,5 +224,6 @@ html {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 
 /* ================= end footer ====================== */

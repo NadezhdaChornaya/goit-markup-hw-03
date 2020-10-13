@@ -1,10 +1,20 @@
-/* =============== ============================== */
+/* ======================= General characteristics ============================== */
   
   .selection {
   padding: 94px 215px;
 }
 
-/* ==================== end ===================== */
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==================== end general characteristics ===================== */
+
+
 
 /* ================ hero block ====================*/
 
@@ -25,11 +35,7 @@
   line-height: 1, 36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  outline: 2px solid tomato;
 }
-
-/* ================ end hero block ====================*/
 
 /* ================== button ==========================*/
 .hero-button {
@@ -51,6 +57,10 @@
 }
 
 /* ================== end button ==========================*/
+
+/* ================ end hero block ====================*/
+
+
 
 /* ================== section block =======================*/
 
@@ -106,13 +116,11 @@
   letter-spacing: 0.03em;
 }
 
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* ================== end section block =======================*/
+
+
+
+/* ================= our occupation section ======================== */
 
 .work-examples{
   display: flex;
@@ -126,9 +134,12 @@
 .work-item:nth-child(3n) {
   margin-right: 0;
 }
-/* ================== end section block =======================*/
 
-/* ====================== advantages ==========================*/
+/* ================= end our occupation section ======================== */
+
+
+
+/* ====================== advantages  block==========================*/
 
 .advantages-list {
   display: flex;
@@ -147,6 +158,8 @@
 
 /* ====================== end advantages ==========================*/
 
+
+
 /* ========================= our team section ==============================*/
 
 .team{
@@ -161,4 +174,9 @@
 
   margin-right: 30px;
   margin-bottom: 30px;
-}
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  }
+
+  /* ========================= end our team section ==============================*/
