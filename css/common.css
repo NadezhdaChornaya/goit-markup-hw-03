@@ -86,8 +86,17 @@ html {
 
 /* =============== main navigation ================== */
 
+.list {
+  list-style: none;
+
+  padding: 0px;
+  margin: 0px;
+}
+/* ниже list - перебить margin */
+
 .site-nav{
   display: flex;
+  margin-left: 93px;
 }
 
 .site-nav li{
@@ -98,8 +107,10 @@ html {
   margin-right: 50px;
 } 
 
+
 .nav-flex {
   display: flex;
+  align-items: center;
   margin-left: 93px;
 }
 
@@ -118,13 +129,6 @@ html {
   text-decoration: none;
 }
 
-.list {
-  list-style: none;
-
-  padding: 0px;
-  margin: 0px;
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus,
 .header-contacts .contacts-details:hover,
@@ -140,7 +144,10 @@ html {
 .header-contacts{
   display: flex;
   outline: 2px solid tomato;
+
+  margin-left: auto; 
 }
+/* почему не ровняет по левому краю??? */
 
 .header-contacts .item-contacts + .item-contacts{
   margin-left: 50px;
@@ -165,7 +172,7 @@ html {
   background-color: var(--background-color);
 }
 
-.logo-footer-main, .logo-footer{
+.logo-footer-main {
   display: block;
   margin-top: 60px;
   margin-left: 215px;

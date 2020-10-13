@@ -25,7 +25,7 @@
   line-height: 1, 36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  
+
   outline: 2px solid tomato;
 }
 
@@ -53,6 +53,8 @@
 /* ================== end button ==========================*/
 
 /* ================== section block =======================*/
+
+/* заголовки секций */
 
 .selection .selection-title {
   margin-top: 0px;
@@ -91,7 +93,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 19;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
@@ -100,10 +102,30 @@
   margin-bottom: 0px;
   font-size: 16px;
   line-height: 1, 19;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-examples{
+  display: flex;
+}
+
+.work-item{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.work-item:nth-child(3n) {
+  margin-right: 0;
+}
 /* ================== end section block =======================*/
 
 /* ====================== advantages ==========================*/
@@ -114,7 +136,6 @@
 
 .advantages-list .item {
   width: 270px;
-  background-color: tomato;
 }
 
 .advantages-list .item:not(:last-child) {
@@ -125,3 +146,19 @@
 }
 
 /* ====================== end advantages ==========================*/
+
+/* ========================= our team section ==============================*/
+
+.team{
+  display: flex;
+  outline: 2px solid tomato;
+  background-color: teal;
+}
+
+.team-item{
+  width: 370px;
+  outline: 2px solid tomato;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
