@@ -1,8 +1,12 @@
-.selection {
+/* =============== ============================== */
+  
+  .selection {
   padding: 94px 215px;
 }
 
-/*hero block*/
+/* ==================== end ===================== */
+
+/* ================ hero block ====================*/
 
 .hero {
   padding: 94px 215px;
@@ -13,17 +17,21 @@
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
+
   color: var(--secondary-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  
   outline: 2px solid tomato;
 }
 
-/*button*/
+/* ================ end hero block ====================*/
+
+/* ================== button ==========================*/
 .hero-button {
   text-decoration: none;
 }
@@ -42,7 +50,9 @@
   letter-spacing: 0.06em;
 }
 
-/*section block*/
+/* ================== end button ==========================*/
+
+/* ================== section block =======================*/
 
 .selection .selection-title {
   margin-top: 0px;
@@ -94,8 +104,24 @@
   letter-spacing: 0.03em;
 }
 
-/*advantages*/
+/* ================== end section block =======================*/
+
+/* ====================== advantages ==========================*/
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list .item {
+  width: 270px;
+  background-color: tomato;
+}
+
+.advantages-list .item:not(:last-child) {
+  margin-right: 30px;
 
 .advantages-list .title {
   color: var(--title-text-color);
 }
+
+/* ====================== end advantages ==========================*/

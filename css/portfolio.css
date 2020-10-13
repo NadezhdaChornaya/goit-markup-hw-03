@@ -1,6 +1,14 @@
-/*filter button*/
+/* ==================== filter button ======================*/
+.flex-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .filter {
   display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .filter .item:not(:last-child) {
@@ -25,6 +33,9 @@
   letter-spacing: 0.03em;
   border: none;
 }
+.filter {
+  margin-bottom: 50px;
+}
 
 .filter .link:hover,
 link:focus {
@@ -32,7 +43,17 @@ link:focus {
   background-color: var(--acsent-color);
 }
 
-/*block with photo*/
+/* ==================== end filter button ======================*/
+
+/* ==================== block with photo =======================*/
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .title {
   color: var(--title-text-color);
@@ -44,6 +65,7 @@ link:focus {
 
 .work-example {
   text-decoration: none;
+  /* margin-bottom: 20px; */
 }
 
 .text-title {
@@ -52,4 +74,51 @@ link:focus {
   line-height: 1, 88;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  margin-top: 0;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 94px;
+}
+
+/* .flex-box {
+  width: calc((100%-60px) / 3);
+  margin-right: 30px;
+} */
+
+.flex-box {
+  width: 370px;
+  border: 1px solid var(--border-color);
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-box:nth-child(3n) {
+  margin-right: 0;
+}
+
+.flex-box:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.work .title {
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 4px;
+}
+
+.title .language {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* ==================== end block with photo =======================*/
