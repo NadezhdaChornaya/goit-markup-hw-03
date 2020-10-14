@@ -1,7 +1,24 @@
-/* ======================= General characteristics ============================== */
+/* ======================= GENERAL SECTIONS characteristics ============================== */
   
-  .selection {
-  padding: 94px 215px;
+  .team-section, .advanteges-section, .occupation-section{
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.occupation-section, .team-section{
+  padding-bottom: 94px;
+}
+
+.advanteges-section, .team-section{
+  padding-top: 94px;
+}
+
+.advanteges-section{
+  padding-bottom: 47px;
+}
+
+.occupation-section{
+  padding-top: 47px;
 }
 
 .container {
@@ -16,9 +33,9 @@
 
 
 
-/* ================ hero block ====================*/
+/* ================ HERO SECTION ====================*/
 
-.hero {
+.hero-section {
   padding: 94px 215px;
   background-color: var(--background-color);
   text-align: center;
@@ -42,7 +59,7 @@
   text-decoration: none;
 }
 
-.hero .button-text {
+.hero-section .button-text {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
@@ -58,15 +75,15 @@
 
 /* ================== end button ==========================*/
 
-/* ================ end hero block ====================*/
+/* ================ end hero section ====================*/
 
 
 
-/* ================== section block =======================*/
+/* ================== SECTION block =======================*/
 
 /* заголовки секций */
 
-.selection .selection-title {
+.selection-title {
   margin-top: 0px;
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -107,7 +124,7 @@
   letter-spacing: 0.03em;
 }
 
-.selection .position {
+.position {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 16px;
@@ -120,7 +137,7 @@
 
 
 
-/* ================= our occupation section ======================== */
+/* ================= OUR OCCUPATION section ======================== */
 
 .work-examples{
   display: flex;
@@ -139,7 +156,7 @@
 
 
 
-/* ====================== advantages  block==========================*/
+/* ====================== ADVANTEGES  block==========================*/
 
 .advantages-list {
   display: flex;
@@ -160,15 +177,18 @@
 
 
 
-/* ========================= our team section ==============================*/
+/* ========================= OUR TEAM section ==============================*/
 
 .team{
   display: flex;
-  outline: 2px solid tomato;
-  background-color: teal;
 }
 
 .team-item{
+  width: calc((100% - 2 * 30зч) 3/ ;
+
+  /* ========================= end our team section ==============================*/
+
+  /* .team-item{
   width: 370px;
   outline: 2px solid tomato;
 
@@ -177,6 +197,4 @@
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  }
-
-  /* ========================= end our team section ==============================*/
+  } */

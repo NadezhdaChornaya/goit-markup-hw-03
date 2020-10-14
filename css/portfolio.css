@@ -7,8 +7,7 @@
 .filter {
   display: flex;
 
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 /* .filter .item:not(:last-child) {
@@ -65,7 +64,6 @@ link:focus {
 
 .work-example {
   text-decoration: none;
-  /* margin-bottom: 20px; */
 }
 
 .text-title {
@@ -76,9 +74,7 @@ link:focus {
   text-decoration: none;
 
   margin-top: 0;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .work {
@@ -95,7 +91,6 @@ link:focus {
 
 .flex-box {
   width: 370px;
-  border: 1px solid var(--border-color);
 
   margin-right: 30px;
   margin-bottom: 30px;
@@ -109,10 +104,27 @@ link:focus {
   margin-bottom: 0;
 }
 
+.box-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: var(--border-color);
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: var(--border-color);
+}
+
 .work .title {
-  margin-top: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-top: 0px;
   margin-bottom: 4px;
 }
 
