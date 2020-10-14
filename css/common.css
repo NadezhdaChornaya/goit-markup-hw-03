@@ -27,6 +27,13 @@ html {
   box-sizing: inherit;
 }
 
+/* сбрасываем отступы строчных img */
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .body {
   background-color: var(--secondary-color);
   color: var(--primery-text-color);
@@ -34,7 +41,7 @@ html {
 }
 
 
-/* ===================== heared container ==================== */
+/* ===================== HEADER container ==================== */
 
 .container {
   width: 1200px;
@@ -99,7 +106,7 @@ html {
 }
 
 .site-nav li{
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .site-nav .item:not(:last-child) {
@@ -110,7 +117,7 @@ html {
 .nav-flex {
   display: flex;
   align-items: center;
-  margin-left: 93px;
+  /* margin-left: 93px; */
 }
 
 .site-nav .link {
@@ -142,9 +149,11 @@ html {
 
 .header-contacts{
   display: flex;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
+}
 
-  margin-left: auto; 
+.address-flex{
+  margin-left: auto;
 }
 /* почему не ровняет по левому краю??? */
 
