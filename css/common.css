@@ -38,13 +38,12 @@ html {
 
 .container {
   width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 15px;
   padding-left: 15px
-  margin-left: auto;
-  margin-right: auto;
 
-  outline: 2px solid tomato;
-  
+  /* outline: 2px solid tomato; */
 }
 
 .page-header {
@@ -165,7 +164,7 @@ html {
 
 /* =========== end heared container ============ */
 
-/* ================= footer ====================== */
+/* ================= FOOTER ====================== */
 
 
 .footer {  
@@ -176,12 +175,22 @@ html {
 
 }
 
+.footer-container{
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px    
+
+  outline: 2px solid tomato;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+}   
+
 /* logo footer */
 
 .logo-footer-main {
   display: block;
-  margin-top: 60px;
-  margin-left: 215px;
 } 
 
 .logo-footer{
@@ -193,14 +202,12 @@ html {
 }
 
 .address-container{
-  margin-left: 215px;
-  margin-right: 1154px;
-  margin-bottom: 60px;
-  
+  display: flex; 
+  flex-direction: column;   
 }
 
-.address {
-  display: block;
+
+.location {
 
   margin-top: 20px;
 
@@ -213,7 +220,6 @@ html {
 }
 
 .contacts {
-  display: block;
 
   margin-top: 9px;
 
@@ -226,4 +232,6 @@ html {
 }
 
 
-/* ================= end footer ====================== */
+
+
+/* ================= END FOOTER ====================== */
