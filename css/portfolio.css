@@ -1,3 +1,14 @@
+/* border: 1px solid #ECECEC; */
+.page-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color-secondary);
+}
+
+.portfolio-title {
+  margin: 0;
+}
+
 /* ==================== filter button ======================*/
 .flex-container {
   margin-left: auto;
@@ -54,6 +65,11 @@ link:focus {
   margin-right: auto;
 }
 
+.selection {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -80,8 +96,6 @@ link:focus {
 .work {
   display: flex;
   flex-wrap: wrap;
-
-  margin-bottom: 94px;
 }
 
 /* .flex-box {

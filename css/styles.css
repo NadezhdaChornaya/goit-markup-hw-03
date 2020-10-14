@@ -1,23 +1,20 @@
 /* ======================= GENERAL SECTIONS characteristics ============================== */
-  
-  .team-section, .advanteges-section, .occupation-section{
-    padding-left: 215px;
-    padding-right: 215px;
-}
 
-.occupation-section, .team-section{
+.occupation-section,
+.team-section {
   padding-bottom: 94px;
 }
 
-.advanteges-section, .team-section{
+.advanteges-section,
+.team-section {
   padding-top: 94px;
 }
 
-.advanteges-section{
+.advanteges-section {
   padding-bottom: 47px;
 }
 
-.occupation-section{
+.occupation-section {
   padding-top: 47px;
 }
 
@@ -31,12 +28,10 @@
 
 /* ==================== end general characteristics ===================== */
 
-
-
 /* ================ HERO SECTION ====================*/
 
 .hero-section {
-  padding: 94px 215px;
+  padding: 94px 0;
   background-color: var(--background-color);
   text-align: center;
 }
@@ -77,8 +72,6 @@
 
 /* ================ end hero section ====================*/
 
-
-
 /* ================== SECTION block =======================*/
 
 /* заголовки секций */
@@ -113,37 +106,17 @@
   letter-spacing: 0.03em;
 }
 
-.name {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 19;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
-}
-
-.position {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 16px;
-  line-height: 1, 19;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
-}
-
 /* ================== end section block =======================*/
-
-
 
 /* ================= OUR OCCUPATION section ======================== */
 
-.work-examples{
+.work-examples {
   display: flex;
 }
 
-.work-item{
+.work-item {
+  /* width: 370px; */
+  width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -154,8 +127,6 @@
 
 /* ================= end our occupation section ======================== */
 
-
-
 /* ====================== ADVANTEGES  block==========================*/
 
 .advantages-list {
@@ -163,11 +134,13 @@
 }
 
 .advantages-list .item {
-  width: 270px;
+  width: calc((100% - 3 * 30px) / 4);
+  /* width: 270px; */
 }
 
 .advantages-list .item:not(:last-child) {
   margin-right: 30px;
+}
 
 .advantages-list .title {
   color: var(--title-text-color);
@@ -175,34 +148,56 @@
 
 /* ====================== end advantages ==========================*/
 
-
-
 /* ========================= OUR TEAM section ==============================*/
+.team-section {
+  background-color: var(--button-background);
+}
 
-.team{
+.team {
   display: flex;
   flex-wrap: wrap;
 }
 
-.team-item{
-  width: 270px;
+.team-item {
+  /* width: 270px; */
+  width: calc((100% - 3 * 30px) / 4);
+  /* margin-right: 30px; */
+  /* margin-bottom: 30px; */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-item:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 30px;
+}
 
-  background-color: tomato;
-  
-  
+.box-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  /* overflow: hidden; чтобы посмотреть, что выходит за рамку */
+}
 
-  /* ========================= end our team section ==============================*/
+.name {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
 
-  /* .team-item{
-  width: 370px;
-  outline: 2px solid tomato;
+.position {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
 
-  margin-right: 30px;
-  margin-bottom: 30px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  } */
+/* ========================= end our team section ==============================*/
